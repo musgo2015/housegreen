@@ -1,0 +1,200 @@
+                                       
+ * {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#btn{
+ width:200px;
+ height: 200px;
+ margin: 0% auto;
+ background-color: rgb(245, 246, 247)
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+body {
+    background: url("./img/maxresdefault.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+#global {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: rgb(248, 247, 247);
+    padding: 30px;
+    box-shadow: 0px 0px 2px grey;
+}
+
+#logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+    line-height: 46px;
+    colo:white;
+    text-align: center;
+    width: 389px;
+    height: 160px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#logo2 {
+    line-height: 46px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    line-height: 46px;
+    list-style: none;
+}
+
+#menu ul li {
+    line-height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover {
+    background:yellow;
+}
+
+#menu a {
+    display: block;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bxslider img{
+    width: 100%;
+    height: 100%;
+    
+}
+#contenido {
+    width: 100%;
+    height:100%;     
+    border: 2px solid blue;
+    margin: 0px auto;
+    display: block;
+    margin-top: 40px;
+    background: black;
+    padding-bottom: 50px;
+}
+#contenido p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top:10px;
+    letter-spacing: 1px;
+    margin-left:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#contenido h1{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top:10px;
+    letter-spacing: 1px;
+    margin-left:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:25px;
+
+}
+#contenido li{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top:10px;
+    letter-spacing: 1px;
+    margin-left:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:25px;
+
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid#ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px grey;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background: #ccc;
+    padding: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.7);
+    height: 47px;
+    font-family: helvetica, arial;
+    color: white;
+    margin: 0px auto;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+#footer address{
+    display: block;
+    margin:0px auto;
+
+}
+
+.bx-wrapper,
+.bx-viewport {
+    height: 300px !important;
+}
+
+.subir {
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: right;
+}
+
+#reloj {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    border: 3px dashed #333;
+    width: 20%;
+    padding: 30px;
+    margin: 0px auto; 
+}
+#swapi,#films,
+#people,#planets,#starchips{
+    cursor: pointer;
+
+}
